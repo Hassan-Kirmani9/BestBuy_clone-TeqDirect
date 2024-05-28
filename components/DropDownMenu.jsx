@@ -1,5 +1,4 @@
 import React, { useState } from "react";
-import { Link } from "react-scroll";
 import { IoMdMenu, IoMdClose } from "react-icons/io";
 import { Icon } from '@iconify/react';
 
@@ -20,9 +19,9 @@ export default function DropDownMenu() {
   };
 
   return (
-      <>
+    <>
       <div className="justify-center w-full py-1 absolute right-[0px] font-semibold md:absolute md:right-[0px] md:top-full md:items-start md:mt-0 mt-[-70px] md:flex bg-[#003DA6]">
-        <div>
+        
           <div className="flex items-center justify-between py-3 md:py-5 md:block">
             <div className="md:hidden">
               <button
@@ -37,7 +36,7 @@ export default function DropDownMenu() {
               </button>
             </div>
           </div>
-        </div>
+       
 
         <div>
           <div
@@ -59,7 +58,7 @@ export default function DropDownMenu() {
                       className="ml-2 text-white cursor-pointer hover:text-gray-300 md:relative right-[195px] bottom-[-3px]"
                       onClick={() => toggleDropdown(idx)}
                     >
-                      <Icon icon="mdi:chevron-down" width="20" height="20" />
+                      <Icon icon="mdi:chevron-down" width="20" height="20" className="md:relative md:right-0 relative right-[10px]" />
                     </div>
                   </div>
                   {openIndex === idx && (
