@@ -25,7 +25,7 @@ export default function DropDownMenu() {
         <div className="md:hidden">
         <div className="md:hidden">
   <button
-    className="p-2 ml-[20px] text-gray-700 rounded-md outline-none focus:border-gray-400 focus:border w-[50px] h-full" // Add w-full and h-full to make the button cover its container
+    className="p-2 ml-[20px] text-gray-700 rounded-md outline-none focus:border-gray-400 focus:border w-[50px] h-full" 
     onClick={() => {
       console.log("Toggling dropdown bar, current state:", dropdownBar);
       setDropdownBar(!dropdownBar);
@@ -43,7 +43,7 @@ export default function DropDownMenu() {
       </div>
 
       {/* Dropdown menu */}
-     { dropdownBar &&  <div
+     {   <div
         className={`flex-1 justify-self-center pb-3 mt-8 md:block md:pb-0 md:mt-0 ${dropdownBar ? "block" : "hidden"}`}
       >
         <div className="items-center justify-center space-y-8 md:flex md:space-x-6 md:gap-x-8 md:space-y-0">
