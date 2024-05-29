@@ -50,7 +50,7 @@ export default function Navbar() {
                   />
                 </div>
               </Link>
-              <div className="md:mt-[-40px] md:ml-[100px] relative  md:left-0 top-[80px]  left-[-60px] z-40 md:top-0">
+              <div className="md:mt-[-40px] md:ml-[100px] relative  md:left-0 top-[80px]  ml-[120px] left-[-60px] z-40 md:top-0">
                 <SearchBar/> 
               </div>
             </div>

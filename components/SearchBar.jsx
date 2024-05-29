@@ -2,10 +2,10 @@ import React from 'react'
 
 export const SearchBar = () => {
   return (
-    <div className="">
+    <div className=" ">
     <input
       type="text"
-      className="h-10 pl-5 pr-10 text-sm focus:outline-none mx-auto bg-white text-black md:w-[400px] w-[300px] md:ml-0 ml-[40px]"
+      className="h-10 pl-5 pr-10 text-sm focus:outline-none mx-auto bg-white text-black md:w-[400px] w-[300px] md:ml-0 ml-[]"
       placeholder="Search Best Buy..."
     />
     <span className="absolute inset-y-0 right-0 flex items-center pr-3">
