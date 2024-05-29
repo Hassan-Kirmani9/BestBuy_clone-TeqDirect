@@ -40,17 +40,17 @@ export default function Navbar() {
           <div>
             <div className="flex items-center justify-between py-3 md:py-5 md:block">
               <Link to="home">
-                <div className="container flex items-center space-x-2 ml-[-10px] mt-[10px]">
+                <div className="md:w-[100px] w-[70px]  container flex items-center space-x-2 ml-[-10px] mt-[10px]">
                   <Image
                     src="/logo.png"
                     alt="Logo"
                     width={100}
                     height={80}
-                    className="mt-[-24px] w-[200px] md:w-[100px]"
+                    className="md:mt-[-24px] w-[200px] md:w-[100px]"
                   />
                 </div>
               </Link>
-              <div className="md:mt-[-40px] md:ml-[100px] relative  md:left-0 top-[80px]  ml-[120px] left-[-60px] z-40 md:top-0">
+              <div className="md:mt-[-40px] md:ml-[100px] relative  md:left-0 top-[80px]  ml-[70px] left-[-60px] z-40 md:top-0">
                 <SearchBar/> 
               </div>
             </div>
