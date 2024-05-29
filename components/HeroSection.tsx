@@ -1,10 +1,25 @@
 "use client"
 import React from "react"
 import Button from "./reusableComponents/Button"
+import { useMediaQuery } from "@react-hook/media-query";
+import ImageSlider from "./ImageSlider"
+
+
 const HeroSection = () => {
+  const isMobile = useMediaQuery("(max-width: 640px)")
+
+  if(isMobile){
+    return (
+      <section id="home" className="min-sm:hidden md:block">
+        <div className="mt-[200px]">
+          <ImageSlider />
+        </div>
+      </section>
+    );
+  }
   return (
-    <section id="home">
-      <div className="mt-[200px] flex flex-wrap">
+    <section id="home" className="min-sm:hidden md:block">
+      <div className=" mt-[200px] flex flex-wrap">
 
         <div className="flex flex-col w-[40%]">
           <img src="/h1.png" alt="" className="h-[85%] " />
@@ -39,12 +54,5 @@ const HeroSection = () => {
 export default HeroSection;
 
 
- {/* <div className="mt-[200px]">
-          <img
-            src="/dummy.png"
-            alt=""
-            className="w-[10000px] h-[400px]"
-          />
-        </div> */}
       
    
