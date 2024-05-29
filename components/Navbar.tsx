@@ -50,7 +50,7 @@ export default function Navbar() {
                   />
                 </div>
               </Link>
-              <div className="md:mt-[-40px] md:ml-[100px] relative  md:left-0 top-[80px]  ml-[70px] left-[-60px] z-40 md:top-0">
+              <div className="md:mt-[-40px] md:ml-[100px] relative  md:left-0 top-[80px]  ml-[65px] left-[-60px] z-40 md:top-0">
                 <SearchBar/> 
               </div>
             </div>
@@ -58,7 +58,7 @@ export default function Navbar() {
 
           <div>
             <div className="flex-1 justify-self-center pb-3 mt-8 md:block  cmd:pb-0 md:mt-0">
-              <div className="md:items-center md:justify-center md:space-y-0 md:flex flex flex-row items-center relative md:top-0 md:left-0 top-[-80px] left-[130px] md:space-x-6 md:gap-x-8 gap-x-3 md:space-y-0 ">
+              <div className="md:items-center md:justify-center md:space-y-0 md:flex flex flex-row items-center relative md:top-0 md:left-0 top-[-80px] left-[100px] md:space-x-6 md:gap-x-8 gap-x-3 md:space-y-0 ">
                 {NAV_ITEMS.map((item, idx) => (
                   <Link
                     key={idx}
