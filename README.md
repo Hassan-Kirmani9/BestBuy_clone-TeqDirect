@@ -1,1 +1,1 @@
-![WhatsApp Image 2024-08-22 at 3 57 55 AM](https://github.com/user-attachments/assets/cd757361-5792-4376-9bef-bf625a80934c)
+![image](https://github.com/user-attachments/assets/ba77febb-78cd-4059-b6c0-f3ee6a0e2dc2)
